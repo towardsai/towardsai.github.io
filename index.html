@@ -12,5 +12,16 @@
   <title>Experiments with Towards AI|Towards Artificial Intelligence</title>
 </head>
 <body>
+<!-- Scripts -->
+<script id="service-worker" type="text/javascript">
+      if ('serviceWorker'in navigator) {
+  				navigator.serviceWorker.register('/sw.js').then(function(reg) {
+  						console.log("ServiceWorker registered sucessfully.");
+  				}).catch(function(err) {
+  						console.log("Registration was not successful, further details:", err)
+  				});
+  		}
+</script>
+<!-- /Scripts -->
 </body>
 </html>
