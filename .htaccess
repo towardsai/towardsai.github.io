@@ -1,1 +1,2 @@
+RewriteEngine on
 Redirect 301 / https://towardsai.net/p
