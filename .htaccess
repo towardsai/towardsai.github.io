@@ -1,2 +1,2 @@
 RewriteEngine on
-Redirect 301 / https://towardsai.net/p
+Redirect 301 /index.html https://towardsai.net/p
